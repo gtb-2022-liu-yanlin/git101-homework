@@ -1,0 +1,11 @@
+git diff
+git checkout -- exercise-2.txt
+git status
+
+git add exercise-2.txt
+git reset HEAD exercise-2.txt
+git checkout -- exercise-2.txt
+
+git add exercise-2.txt
+git commit -m 'modify'
+git reset --hard HEAD^

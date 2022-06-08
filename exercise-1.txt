@@ -1,1 +1,17 @@
-this is exercise-1.txt
+mkdir liuyanlin-learning-git
+cd liuyanlin-learning-git
+git init
+
+touch exercise-1.txt
+git add exercise-1.txt
+git commit -m 'new exercise-1.txt'
+
+touch exercise-2.txt
+touch exercise-3.txt
+git add .
+git commit -m 'new exercise-2.txt and exercise-3.txt'
+
+git diff 
+git add exercise-3.txt
+git commit -m 'modify exercise-3.txt'
+git status

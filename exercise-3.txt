@@ -1,0 +1,9 @@
+git add .
+git commit -m 'modify'
+git status
+git remote add origin git@github.com:gtb-2022-liu-yanlin/git101-homework.git
+git remote -v
+git push origin master
+
+git pull --rebase origin master
+git push origin master
